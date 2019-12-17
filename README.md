@@ -1,15 +1,10 @@
 
-# Fast Approximate Spectral Norm Regularization for Enhancing Robustness of DNNs
+# Robust Saliency Detection Algorithm via Multi-Level Graph Structure and Accurate Background Queries Selection
 
-This is a pytorch implemention of the fast spectral norm regularization algorithm proposed in the paper Fast Approximate Spectral Norm Regularization for Enhancing Robustness of DNNs.
+This is a matlab implemention of the saliency detection algorithm proposed in the [paper](https://github.com/Flocculus/Saliency-Detection-Algorithm-via-Multi-Level-Graph-Structure-and-Accurate-Background-Queries-Select/blob/master/Robust%20Saliency%20Detection%20Algorithm%20via%20Multi-Level%20Graph%20Structure%20and%20Accurate%20Background%20Queries%20Selection.pdf).
 
 ## Usage
 
-The 'GPU_version.py' will compare our fast spectral norm regularization algorithm with the [newest algorithm](https://arxiv.org/abs/1705.10941). You can modify row 302 to switch loss among none regularizer (```loss = loss```), our regularizer (```loss = loss + loss_my_conv```) and newest regularizer (```loss = loss + loss_old_conv```).
+Run main.m file to compare the result between my algorithm and the result from this [paper](https://ieeexplore.ieee.org/document/7298887)
 
-## Test Result
-![](https://github.com/Flocculus/Fast-Approximate-Spectral-Norm-Regularization-for-Enhancing-Robustness-of-DNNs/blob/master/Fig/F1.png)
 
-![](https://github.com/Flocculus/Fast-Approximate-Spectral-Norm-Regularization-for-Enhancing-Robustness-of-DNNs/blob/master/Fig/F2.png)
-
-![](https://github.com/Flocculus/Fast-Approximate-Spectral-Norm-Regularization-for-Enhancing-Robustness-of-DNNs/blob/master/Fig/F3.png)
